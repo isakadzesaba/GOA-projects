@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrate!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f0f0f0;
+            animation: fadeIn 1s ease-in-out;
+            text-decoration: wavy;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #333;
+            margin-bottom: 30px;
+            animation: slideIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        /* Add celebratory animations */
+        @keyframes celebrate {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        p {
+            text-decoration: double;
+            animation: celebrate 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <h1>🥳🥳🥳🥳🥳</h1>
+</body>
+</html>

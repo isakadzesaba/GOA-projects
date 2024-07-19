@@ -3,7 +3,7 @@ all_accounts = []
 def create_acc():
     username = input("Enter a username: ")
     password = input("Enter a password: ")
-    data_output = input("create acc?")
+    data_output = input("create acc? ")
 
     if data_output.lower() == "yes":
         account = {
